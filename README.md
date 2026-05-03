@@ -70,3 +70,12 @@ wazuh-siem-homelab/
 - Docker -- containerized deployment on macOS
 - Ubuntu 22.04 LTS -- monitored endpoint
 - MITRE ATT&CK -- threat classification framework
+
+## Key Takeaways
+
+- Deployed a production-style SIEM stack (Wazuh Manager, Indexer, Dashboard) on Docker/macOS with zero cloud dependency.
+- Enrolled multiple agent types (Ubuntu container + macOS host) and validated cross-platform log ingestion.
+- Simulated and detected a real attack pattern (SSH brute force, T1110) end-to-end: from attack execution to alert triage and incident documentation.
+- Applied MITRE ATT&CK framework to classify detections and practiced mapping observable behavior to threat techniques.
+- Ran CIS Benchmark compliance scans and CVE vulnerability assessments against a live endpoint, interpreting results and identifying remediation paths.
+- Practiced a structured incident response workflow: detection, containment reasoning, root cause analysis, and written reporting.
